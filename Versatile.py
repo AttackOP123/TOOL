@@ -1,4 +1,3 @@
-
 import os
 import pyfiglet
 import colorama
@@ -15,7 +14,7 @@ print (colored("                      			       ~ Versatile Institute", 'red'))
 print (" ")
 print (colored(" [For basic commands type 'Basic_Commands' && Search By Tool Name]",'red'))
 print (" ")
-x = input(colored(' Search >>> ', 'white', attrs=['blink']))
+x = input(colored(' Search >>> ', 'white', attrs=['blink'])) ;
 print (" ")
 if x == 'msfvenom':
 	print ("	Msfvenom For Android") ;

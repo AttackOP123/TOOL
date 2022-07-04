@@ -17,7 +17,7 @@ print (" ")
 try: 
     x = input(colored(' Search >>> ', 'white', attrs=['blink']));
 except EOFError:
-    return
+    pass
 print (" ")
 if x == 'msfvenom':
 	print ("	Msfvenom For Android") ;

@@ -14,8 +14,10 @@ print (colored("                      			       ~ Versatile Institute", 'red'))
 print (" ")
 print (colored(" [For basic commands type 'Basic_Commands' && Search By Tool Name]",'red'))
 print (" ")
-try : x = input(colored(' Search >>> ', 'white', attrs=['blink']));
-except : pass
+try : 
+    x = input(colored(' Search >>> ', 'white', attrs=['blink']));
+except EOFError as e:
+    print(e)
 print (" ")
 if x == 'msfvenom':
 	print ("	Msfvenom For Android") ;

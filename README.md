@@ -8,3 +8,5 @@ $ git clone https://github.com/AttackOP123/TOOL.git
 $ python3 os_user.py
 # python3 os_root.py
 ```
+
+####To uninstall this remove last few lines added in ~/.zshrc files.
